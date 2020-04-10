@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatSupportActivity">
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:textColor="@color/black"
+        android:text="Chat Support"
+        android:gravity="center_vertical"/>
+
+
+</androidx.appcompat.widget.Toolbar>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D6EAE8"
+    android:paddingVertical="15dp"
+    android:paddingHorizontal="5dp"
+    android:drawableLeft="@drawable/attachfile"
+    android:layout_alignParentBottom="true"
+    android:drawableRight="@drawable/ic_send_black_24dp"
+    android:drawableStart="@drawable/attachfile"
+    android:drawableEnd="@drawable/ic_send_black_24dp" />
+
+</RelativeLayout>
